@@ -1,0 +1,51 @@
+
+*{
+    box-sizing: content-box;
+}
+
+body {
+    background-color: black;
+}
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5rem;
+    margin: auto;
+    color: white;
+
+
+
+}
+
+.imagen{
+    width: 500px;
+    border: 5px solid rgb(0, 0, 0);
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 15px;
+    background-color: rgb(20, 18, 18);
+    padding: 50px;
+    padding-top: 0;
+    border: 1px solid rgb(255, 255, 255);
+    transition: all 1s;
+}
+
+
+
+.imagen p{
+    font-size: 18px;
+    
+}
+
+
+
+.imagen:hover{
+    width: 600px;
+
+    background-color: rgb(48, 48, 48);
+    
+}
+
