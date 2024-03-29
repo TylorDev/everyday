@@ -3,90 +3,128 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Galeria de imagenes::Hover</title>
+    <title>Proyecto</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="contenedor">
-      <h1>PRACTICA 01</h1>
-      <div class="imagen">
-        <div>Titulo de la imagen</div>
-        <img
-          src="https://i.pinimg.com/originals/6d/5f/df/6d5fdf85f8b735e19df39fa059c1c455.gif"
-          alt=""
-        />
-        <p>
-          descripcion: Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-          Debitis unde laboriosam commodi praesentium ratione aut quis
-          temporibus ad similique nihil at alias illo voluptates, molestias,
-          dolorem quae magnam ipsa vitae!
-        </p>
-      </div>
-      <div class="imagen">
-        <div>Titulo de la imagen</div>
-        <img
-          src="https://i.pinimg.com/236x/6c/29/08/6c2908633c272b748ec16bde67fe2549.jpg"
-          alt=""
-        />
-        <p>
-          descripcion: Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-          Debitis unde laboriosam commodi praesentium ratione aut quis
-          temporibus ad similique nihil at alias illo voluptates, molestias,
-          dolorem quae magnam ipsa vitae!
-        </p>
-      </div>
+    <div class="instruciones">
+      <ul>
+        <li>INVESTIGAR LAS SIGUIENTES PREGUNTAS:</li>
+        <BR></BR>
+        <li>
+          Cual es la diferencia en css entre: <br />
+          .nombre { <br />
+            <br />
+            width: 500px; <br />
+            <br />
+          } <br>
+          .nombre img { <br />
+          <br />
+          width: 100%; <br />
+          <br />
+          } y esta otra forma: <br />
+          <br />
+          .nombre { <br />
+          <br />
+          width: 500px; <br />
+          <br />
+          <br />
+          } <br>img { <br />
+          <br />
+          width: 100%; <br />
+          <br />
+          }
+        </li>
+        <BR></BR>
+        <li>Para que sirve en css  .imagen{}  img{}   #img{} ?  </li>
+        <li>Como aplicar propiedades a una clase o selector en css? es necesario las llaves?{}</li>
+        <li>Como hacer 3 filas de 3 imagenes en un con flex box? solo con 3 conteiner</li>
+        <li>Que es padding y para que sirve?como separar contenedores?</li>
+        <li>
+          Puede un contenedor flex box, ser hijo de otro contenedor flex box?
+        </li>
+        <li>Que es un elemento padre y un elemento hijo en css?</li>
+        <li>
+          Para colocar hover a un elemento hijo haz esto: <br />
+          .padre:hover .hijo{cambios en el hijo}
+        </li>
 
-      <div class="imagen">
-        <div>Titulo de la imagen</div>
-        <img
-          src="https://i.pinimg.com/originals/67/e2/68/67e2687af9f32ef46277b9d1e713189a.gif"
-          alt=""
-        />
-        <p>
-          descripcion: Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-          Debitis unde laboriosam commodi praesentium ratione aut quis
-          temporibus ad similique nihil at alias illo voluptates, molestias,
-          dolorem quae magnam ipsa vitae!
-        </p>
+        <li>Como cambiar la opacidad de un elemento? osea la transparencia?</li>
+        <li>Como poner bordes redondeados a una imagen o contenedor con imagen?</li>
+        <li>Que es position absolute y para que sirven left:  top: right: bottom: en css?</li>
+        <li>Es necesario  que el padre tenga position relative para que position absulte funcione? Que pasa si el padre no tiene position: relative?</li>
+      </ul>
+    </div>
+    <div class="conteiner">
+      <div class="fila">
+        <div class="item">
+          <img
+            src="https://i.pinimg.com/564x/33/3f/5e/333f5eb16f75a011c373f77cbad7f469.jpg"
+            alt=""
+          />
+
+          <div class="titulo">Imagen 1</div>
+        </div>
+        <div class="item">
+          <img
+            src="https://i.pinimg.com/236x/3a/0b/00/3a0b0037615eb2da9e6c8cdfb6cf6a27.jpg"
+            alt=""
+          />
+          <div class="titulo">Imagen 2</div>
+        </div>
+        <div class="item">
+          <img
+            src="https://i.pinimg.com/236x/fd/99/c5/fd99c56eec801d4b2f7cec66bab12e2c.jpg"
+            alt=""
+          />
+          <div class="titulo">Imagen 3</div>
+        </div>
       </div>
-      <div class="imagen">
-        <div>Titulo de la imagen</div>
-        <img
-          src="https://i.pinimg.com/originals/7b/6d/ef/7b6def1234d467fcc28e77c9cc7e3eda.gif"
-          alt=""
-        />
-        <p>
-          descripcion: Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-          Debitis unde laboriosam commodi praesentium ratione aut quis
-          temporibus ad similique nihil at alias illo voluptates, molestias,
-          dolorem quae magnam ipsa vitae!
-        </p>
+      <div class="fila">
+        <div class="item">
+          <img
+            src="https://i.pinimg.com/236x/ec/05/0e/ec050e3bb3800a0e10ee927d47b485dc.jpg"
+            alt=""
+          />
+          <div class="titulo">Imagen 4</div>
+        </div>
+        <div class="item">
+          <img
+            src="https://i.pinimg.com/236x/3e/e9/14/3ee91447b67ab78a76911cb7a3e0b8a1.jpg"
+            alt=""
+          />
+          <div class="titulo">Imagen 5</div>
+        </div>
+        <div class="item">
+          <img
+            src="https://i.pinimg.com/236x/0a/75/66/0a75668d10db16049180eacabf936f3f.jpg"
+            alt=""
+          />
+          <div class="titulo">Imagen 6</div>
+        </div>
       </div>
-      <div class="imagen">
-        <div>Titulo de la imagen</div>
-        <img
-          src="https://i.pinimg.com/236x/6e/d9/dd/6ed9ddfd1b93d79250e3c27088378872.jpg"
-          alt=""
-        />
-        <p>
-          descripcion: Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-          Debitis unde laboriosam commodi praesentium ratione aut quis
-          temporibus ad similique nihil at alias illo voluptates, molestias,
-          dolorem quae magnam ipsa vitae!
-        </p>
-      </div>
-      <div class="imagen">
-        <div>Titulo de la imagen</div>
-        <img
-          src="https://i.pinimg.com/236x/17/3a/00/173a008888e973ea51e6f5fa809d7972.jpg"
-          alt=""
-        />
-        <p>
-          descripcion: Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-          Debitis unde laboriosam commodi praesentium ratione aut quis
-          temporibus ad similique nihil at alias illo voluptates, molestias,
-          dolorem quae magnam ipsa vitae!
-        </p>
+      <div class="fila">
+        <div class="item">
+          <img
+            src="https://i.pinimg.com/564x/3a/00/07/3a0007cc5e035fb5a73699708bac477e.jpg"
+            alt=""
+          />
+          <div class="titulo">Imagen 7</div>
+        </div>
+        <div class="item">
+          <img
+            src="https://i.pinimg.com/236x/37/c4/84/37c48477d338c27534b6061c778edf0e.jpg"
+            alt=""
+          />
+          <div class="titulo">Imagen 8</div>
+        </div>
+        <div class="item">
+          <img
+            src="https://i.pinimg.com/564x/d4/9e/99/d49e9969801586ed9ed53231f8c7d7fd.jpg"
+            alt=""
+          />
+          <div class="titulo">Imagen 9</div>
+        </div>
       </div>
     </div>
   </body>
