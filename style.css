@@ -1,51 +1,70 @@
 
-*{
-    box-sizing: content-box;
-}
+
 
 body {
     background-color: black;
-}
-.contenedor{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 5rem;
-    margin: auto;
     color: white;
-
-
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
 }
 
-.imagen{
-    width: 500px;
-    border: 5px solid rgb(0, 0, 0);
-    font-size: 25px;
+.instruciones{
+
     display: flex;
-    flex-direction: column;
     align-items: center;
+    justify-content: center;
+    padding: 1rem;
+}
+
+
+ul{
+    border: 2px solid white;
     border-radius: 15px;
-    background-color: rgb(20, 18, 18);
-    padding: 50px;
-    padding-top: 0;
-    border: 1px solid rgb(255, 255, 255);
-    transition: all 1s;
+
+}
+.conteiner{
+    display:  flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 10rem;
+    height: 100vh;
+
+
 }
 
+.fila{
 
 
-.imagen p{
-    font-size: 18px;
-    
+    height: 180px;
+    width: 500px;
+    display: flex;
+
+}
+.fila1{
+
+    height: 100px;
+}
+.fila2{
+    height: 100px;
+}
+.fila3{
+
+    height: 300px;
+
 }
 
-
-
-.imagen:hover{
-    width: 600px;
-
-    background-color: rgb(48, 48, 48);
-    
+.item{
+    width: 100%;
 }
 
+.item:hover{
+    border: 3px solid rgb(0, 229, 255);
+}
+
+img{
+    width: 100%;
+    height:100%;
+    object-fit: cover;
+
+}

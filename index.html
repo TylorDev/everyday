@@ -3,90 +3,82 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Galeria de imagenes::Hover</title>
+    <title>Proyecto4</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="contenedor">
-      <h1>PRACTICA 01</h1>
-      <div class="imagen">
-        <div>Titulo de la imagen</div>
-        <img
-          src="https://i.pinimg.com/originals/6d/5f/df/6d5fdf85f8b735e19df39fa059c1c455.gif"
-          alt=""
-        />
-        <p>
-          descripcion: Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-          Debitis unde laboriosam commodi praesentium ratione aut quis
-          temporibus ad similique nihil at alias illo voluptates, molestias,
-          dolorem quae magnam ipsa vitae!
-        </p>
-      </div>
-      <div class="imagen">
-        <div>Titulo de la imagen</div>
-        <img
-          src="https://i.pinimg.com/236x/6c/29/08/6c2908633c272b748ec16bde67fe2549.jpg"
-          alt=""
-        />
-        <p>
-          descripcion: Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-          Debitis unde laboriosam commodi praesentium ratione aut quis
-          temporibus ad similique nihil at alias illo voluptates, molestias,
-          dolorem quae magnam ipsa vitae!
-        </p>
-      </div>
+    <div class="instruciones">
+      <ul>
+        <li>INVESTIGAR LAS SIGUIENTES PREGUNTAS:</li>
+        <li>Como poner bordes? como cambiar el grosor, y el color?</li>
+        <li>Le puedo dar un ancho diferente al padre que al elemento hijo?</li>
+        <li>
+          Como puedo centrar verticalmente y horizontalmente a los hijos en un
+          contenedor flex box
+        </li>
+        <li>
+          Puede un div tener 2 clases diferentes? por ejempo class= "caja
+          caja-1" Para que me serviria hacer eso?
+        </li>
+        <li>
+          Que es object fit? solo sirve si lo aplico a la imagen hija, y no al
+          padre? tengo un div con un img dentro
+        </li>
 
-      <div class="imagen">
-        <div>Titulo de la imagen</div>
-        <img
-          src="https://i.pinimg.com/originals/67/e2/68/67e2687af9f32ef46277b9d1e713189a.gif"
-          alt=""
-        />
-        <p>
-          descripcion: Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-          Debitis unde laboriosam commodi praesentium ratione aut quis
-          temporibus ad similique nihil at alias illo voluptates, molestias,
-          dolorem quae magnam ipsa vitae!
-        </p>
+        <li>
+          Puedo tener muchos div dentros de otros? por ejemplo un div con 5 div
+          dentros, cada div hijo tiene 3 img
+        </li>
+
+        <li>
+          Para que sirve width:100% height:100%? En que casos funciona y en
+          cuales no? Necesita el padre una medida fija?
+        </li>
+      </ul>
+    </div>
+    <div class="conteiner">
+      <div class="fila fila1">
+        <div class="item">
+          <img
+            src="https://i.pinimg.com/564x/0a/f5/a4/0af5a48507d189ba2cd57f7b3d00e89d.jpg"
+            alt=""
+          />
+        </div>
+
+        <div class="item">
+          <img
+            src="https://i.pinimg.com/564x/16/fd/68/16fd68e0c8dd216d6adf24721967ac8a.jpg"
+            alt=""
+          />
+        </div>
       </div>
-      <div class="imagen">
-        <div>Titulo de la imagen</div>
-        <img
-          src="https://i.pinimg.com/originals/7b/6d/ef/7b6def1234d467fcc28e77c9cc7e3eda.gif"
-          alt=""
-        />
-        <p>
-          descripcion: Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-          Debitis unde laboriosam commodi praesentium ratione aut quis
-          temporibus ad similique nihil at alias illo voluptates, molestias,
-          dolorem quae magnam ipsa vitae!
-        </p>
+      <div class="fila fila2">
+        <div class="item">
+          <img
+            src="https://i.pinimg.com/236x/31/fb/34/31fb348bae0daeddf0236f250e7c22e1.jpg"
+            alt=""
+          />
+        </div>
+        <div class="item">
+          <img
+            src="https://i.pinimg.com/736x/f2/d3/60/f2d360e674ff572e39a130d108f6e55b.jpg"
+            alt=""
+          />
+        </div>
+        <div class="item">
+          <img
+            src="https://i.pinimg.com/564x/bf/58/49/bf5849c9fe4e498db7ed74e9832b3e33.jpg"
+            alt=""
+          />
+        </div>
       </div>
-      <div class="imagen">
-        <div>Titulo de la imagen</div>
-        <img
-          src="https://i.pinimg.com/236x/6e/d9/dd/6ed9ddfd1b93d79250e3c27088378872.jpg"
-          alt=""
-        />
-        <p>
-          descripcion: Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-          Debitis unde laboriosam commodi praesentium ratione aut quis
-          temporibus ad similique nihil at alias illo voluptates, molestias,
-          dolorem quae magnam ipsa vitae!
-        </p>
-      </div>
-      <div class="imagen">
-        <div>Titulo de la imagen</div>
-        <img
-          src="https://i.pinimg.com/236x/17/3a/00/173a008888e973ea51e6f5fa809d7972.jpg"
-          alt=""
-        />
-        <p>
-          descripcion: Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-          Debitis unde laboriosam commodi praesentium ratione aut quis
-          temporibus ad similique nihil at alias illo voluptates, molestias,
-          dolorem quae magnam ipsa vitae!
-        </p>
+      <div class="fila fila3">
+        <div class="item">
+          <img
+            src="https://i.pinimg.com/736x/4e/49/e3/4e49e330e2525ff5ba59f3948b31cbfb.jpg"
+            alt=""
+          />
+        </div>
       </div>
     </div>
   </body>
