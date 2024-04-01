@@ -16,10 +16,20 @@ body {
 
     font-size: 10rem;
 
+    font-family: 'Courier New', Courier, monospace;
 }
 
 
+.link{
+    border:  1px solid white;
+    border-radius: 1rem;
+    background-color:#143B43 ;
+    font-size: 5rem;
+    padding: 1rem;
+}
+
 a{ 
     color: white;
+
 
 }
