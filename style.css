@@ -13,7 +13,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 1rem;
+    padding: 50vh;
 }
 
 
@@ -36,20 +36,32 @@ ul{
 
 .imagenes{
     width: 600px;
+    height:50vh;
     display: flex;
-    gap: 1rem
-
+    gap: 1rem;
+    flex-direction: column;
+    
     
 }
 
+.titulo-imagen{
+    position: absolute;
+    font-size: 2rem;
+    top: 25%;
+    left: 35%;
+    color: rgb(255, 242, 0);
+}
+
 .imagen{
-    width: 200px;
-    height: 200px;
+    position: relative;
+    width:100%;
+    height: 100px;
     transition: all 0.5s;
 }
 
 .imagen img:hover{
-    border: 2px solid rgb(191, 0, 255);
+    border:  2px solid rgb(0, 255, 183);
+
 }
 
 
@@ -73,15 +85,62 @@ ul{
 .letra{
     transition: all 0.5s;
 }
-.subtitulo{
-    font-size: 1rem;
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: bold;
-}
-
 
 .letra:hover{
     font-size: 2.5rem;
-    color: purple;
+    color:rgb(0, 255, 183);
+
+}
+
+
+.btn button {
+
+    color: black;
+    font-size: 30px;
+    height: 50px;
+    width: 150px;
+    border-radius: 15px;
+    background: none;
+    border: none;
+
+    background-color: white;
+    border: 2px solid white;
+
+}
+
+.btn button:active {
+
+    background-color: red;
+}
+
+.btn img{
+    width: 50px;
+    height: 50px;
+}
+
+.input{
+    border-radius: 15px;
+    outline: none;
+    border: none;
+    font-size: 20px;
+    padding: 1rem;
+    padding-right: 3rem;
+}
+
+.input:focus{
+    border: 2px solid rgb(0, 255, 183);
+}
+
+.input-conteiner{
+    position: relative;
+    display: flex;
+
+}
+
+.input-conteiner img{
+    height:30px;
+    position: absolute;
+    right: 5%;
+    bottom: 20%;
 
 }
