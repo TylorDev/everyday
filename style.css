@@ -22,125 +22,104 @@ ul{
     border-radius: 15px;
 
 }
+
 .conteiner{
-    display:  flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
-    gap: 1rem;
- 
-    height: 100vh;
-
-
-}
-
-.imagenes{
-    width: 600px;
-    height:50vh;
     display: flex;
-    gap: 1rem;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+background-image: url(https://4kwallpapers.com/images/walls/thumbs_3t/8710.jpg);
+background-size: cover;
+}
+
+.menu{
+    display: flex;
+    border: 1px solid rgba(255, 255, 255, 0.152);
+    flex-direction: column;
+    width: 400px;
+
+    background-color: rgba(89, 89, 89, 0.163);
+    backdrop-filter: blur(5px);
+    border-radius: 20px;
+    padding: 20px;
+
+}
+.subtitle{
+
+    font-size: 12px;
+    color: rgb(206, 206, 206);
+}
+
+
+.option{
+    display: flex;
+    align-items: center;
+    border-radius: 5px ;
+
+    justify-content: space-around;
+ 
+}
+
+.option:hover{
+
+    outline: 1px solid white;
+
     
-    
 }
+.icon{
+    height: 50px;
 
-.titulo-imagen{
-    position: absolute;
-    font-size: 2rem;
-    top: 25%;
-    left: 35%;
-    color: rgb(255, 242, 0);
-}
+    filter: invert(1);
+    border-radius: 100px;
+    margin: 1rem;
 
-.imagen{
-    position: relative;
-    width:100%;
-    height: 100px;
-    transition: all 0.5s;
-}
 
-.imagen img:hover{
-    border:  2px solid rgb(0, 255, 183);
-
+    transition: all 1s;
 }
 
 
-.imagen img{
-    border-radius: 15px;
+
+
+.icon img{
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: contain;
 }
 
+.header{
 
-
-
+    padding: 20px;
+}
 .titulo{
-    display: flex;
-    font-size: 2rem;
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  
-}
 
-.letra{
-    transition: all 0.5s;
-}
-
-.letra:hover{
-    font-size: 2.5rem;
-    color:rgb(0, 255, 183);
-
-}
-
-
-.btn button {
-
-    color: black;
     font-size: 30px;
-    height: 50px;
-    width: 150px;
-    border-radius: 15px;
-    background: none;
-    border: none;
-
-    background-color: white;
-    border: 2px solid white;
-
+    font-weight: bold;
 }
 
-.btn button:active {
+.switch button{
+    background-color: rgba(172, 255, 47, 0.198);
+    border: 1px solid rgba(164, 164, 164, 0.248);
+    width: 80px;
+    height: 40px;
+    border-radius: 55px;
+    color: black;
+    font-size: 10px;
+    font-weight: bold;
 
-    background-color: red;
+    transition: all 1s;
+
+}
+.switch button:hover{
+    background-color: rgb(255, 255, 255);
 }
 
-.btn img{
-    width: 50px;
-    height: 50px;
-}
-
-.input{
-    border-radius: 15px;
-    outline: none;
-    border: none;
+.content-titulo{
     font-size: 20px;
-    padding: 1rem;
-    padding-right: 3rem;
+    font-weight: bold;
 }
 
-.input:focus{
-    border: 2px solid rgb(0, 255, 183);
-}
-
-.input-conteiner{
-    position: relative;
-    display: flex;
-
-}
-
-.input-conteiner img{
-    height:30px;
-    position: absolute;
-    right: 5%;
-    bottom: 20%;
-
+.content-subtitulo{
+    color: rgb(120, 120, 120);
 }
