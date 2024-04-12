@@ -14,6 +14,7 @@ body {
     align-items: center;
     justify-content: center;
     padding: 50vh;
+    
 }
 
 
@@ -28,10 +29,11 @@ ul{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 100vw;
-    height: 100vh;
-background-image: url(https://4kwallpapers.com/images/walls/thumbs_3t/8710.jpg);
+
+    height: 120vh;
+background-image: url(https://www.wallpaperhub.app/_next/image?url=https%3A%2F%2Fcdn.wallpaperhub.app%2Fcloudcache%2F0%2F3%2F6%2Fb%2Fa%2F1%2F036ba136f0cfeea15461196787bc4876b5bd52b9.jpg&w=4500&q=100);
 background-size: cover;
+
 }
 
 .menu{
@@ -42,8 +44,9 @@ background-size: cover;
 
     background-color: rgba(89, 89, 89, 0.163);
     backdrop-filter: blur(5px);
-    border-radius: 20px;
+    border-radius: 8px;
     padding: 20px;
+
 
 }
 .subtitle{
@@ -53,40 +56,6 @@ background-size: cover;
 }
 
 
-.option{
-    display: flex;
-    align-items: center;
-    border-radius: 5px ;
-
-    justify-content: space-around;
- 
-}
-
-.option:hover{
-
-    outline: 1px solid white;
-
-    
-}
-.icon{
-    height: 50px;
-
-    filter: invert(1);
-    border-radius: 100px;
-    margin: 1rem;
-
-
-    transition: all 1s;
-}
-
-
-
-
-.icon img{
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-}
 
 .header{
 
@@ -95,31 +64,61 @@ background-size: cover;
 .titulo{
 
     font-size: 30px;
-    font-weight: bold;
+    font-weight: 100;
 }
 
-.switch button{
-    background-color: rgba(172, 255, 47, 0.198);
-    border: 1px solid rgba(164, 164, 164, 0.248);
-    width: 80px;
-    height: 40px;
-    border-radius: 55px;
-    color: black;
-    font-size: 10px;
-    font-weight: bold;
 
-    transition: all 1s;
 
-}
-.switch button:hover{
-    background-color: rgb(255, 255, 255);
-}
-
-.content-titulo{
+.input{
+    margin-top: 1rem;
+    background-color: transparent ;
+    border: 1px solid rgb(129, 79, 255);
+    height: 20px;
     font-size: 20px;
-    font-weight: bold;
+    padding: 1rem;
+    color: white;
+    border-radius: 3px;
+}
+.input::placeholder{
+    color:white;
 }
 
-.content-subtitulo{
-    color: rgb(120, 120, 120);
+.input:focus{
+
+    outline: 2px solid rgb(255, 255, 255);
+    
+
+}
+
+
+.text{
+    padding: 1rem;
+    text-decoration: underline;
+}
+
+
+.btn{
+    height: 50px;
+    border-radius: 5px;
+    background-color: #6616B7;
+    border: 1px solid black;
+    color: white;
+
+}
+
+.btn:active{
+    background-color: #a245ff;
+}
+
+
+.more{
+    margin-top: 1rem;
+    background-color: rgba(10, 10, 10, 0.415);
+    border: 1px solid white;
+}
+
+
+
+.more:active{
+    background-color: rgba(108, 108, 108, 0.415);
 }
